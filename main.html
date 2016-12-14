@@ -12,18 +12,26 @@
 </head>
 
 <body>
-    <img id = "imgAlgomon"
+    <img id="pokemonImage"
         src="charmander-front.png"
-        style = "width:100px">
-    <button
-        onclick = "document.getElementById('imgAlgomon').src
-                        = 'charmander-back.png'">
+        style="width:100px">
+
+    <button id="showBack">
         Mostrar espalda
     </button>
-    <button
-        onclick = "document.getElementById('imgAlgomon').src
-                        = 'charmander-front.png'">
+
+    <button id="showFront">
         Mostrar frente
     </button>
+
+    <script>
+        var image = "document.getElementById('pokemonImage')";
+        var showBack = document.getElementById("showBack");
+        var showFront = document.getElementById("showFront");
+        showBack.setAttribute("onClick",
+                image + ".src = 'charmander-back.png'");
+        showFront.setAttribute("onClick",
+                image + ".src = 'charmander-front.png'");
+    </script>
 </body>
 </html>
