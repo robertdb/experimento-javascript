@@ -4,6 +4,10 @@ function attack() {
 
 	image.setAttribute("src", 'images/attack.gif');
 
+	var audio = new Audio('sounds/004 - charmander.wav');
+	
+	audio.play();
+
 }
 
 function showFront() {
