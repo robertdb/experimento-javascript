@@ -2,31 +2,28 @@
 
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
     <title>The HTML5 Herald</title>
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
     <link rel="stylesheet" href="styles.css">
     <script src="buttons.js"></script>
-
 </head>
-
-<body  id = "bground" background="arenaDeCombate.png">
-    
-    <img id="pokemonImageUp"
-        src="images/charmander.gif">
-
-    <img id="pokemonImageDown"
-        src="images/bulbasaur-back.gif">
-
-    <button id = "pokemonUp" onclick="attack()">
-        atacar
-    </button>
-
-    <button id = "pokemonDown" onclick="showFront()">
-        Front
-    </button>
-
+<body>
+    <div>
+        <img src="images/arenaDeCombate.png">
+        <img id="pokemonImageUp"
+            src="images/charmander.gif">
+        <img id="pokemonImageDown"
+            src="images/bulbasaur-back.gif">
+    </div>
+    <div>
+        <button id = "pokemonUp" onclick="attack()">
+            atacar
+        </button>
+        <button id = "pokemonDown" onclick="showFront()">
+            Front
+        </button>
+    </div>
 </body>
 </html>

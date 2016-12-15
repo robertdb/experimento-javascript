@@ -1,11 +1,7 @@
-body {
+#vista {
     background-image: url("images/arenaDeCombate.png");
     background-size: 1000 1000;
     background-repeat: no-repeat;
-}
-
-body > * {
-    display: block;
 }
 
 #pokemonImageUp{

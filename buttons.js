@@ -1,6 +1,6 @@
 function attack() {
 
-	var image = document.getElementById('pokemonImage');
+	var image = document.getElementById('pokemonImageUp');
 
 	image.setAttribute("src", 'images/attack.gif');
 
@@ -8,7 +8,7 @@ function attack() {
 
 function showFront() {
 
-	var image = document.getElementById('pokemonImage');
+	var image = document.getElementById('pokemonImageUp');
 
 	image.setAttribute("src", 'images/charmander.gif');
 
