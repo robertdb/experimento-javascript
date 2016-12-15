@@ -8,3 +8,11 @@ body > * {
     display: block;
 }
 
+#pokemonImageUp{
+	position:absolute; TOP:80px; LEFT:220px; WIDTH:px; HEIGHT:50px
+}
+
+#pokemonImageDown{
+	position:absolute; TOP:200px; LEFT:50px; WIDTH:px; HEIGHT:50px
+}
+
