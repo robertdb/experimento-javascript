@@ -1,8 +1,8 @@
-function showBack() {
+function attack() {
 
 	var image = document.getElementById('pokemonImage');
 
-	image.setAttribute("src", 'images/charmander-back.gif');
+	image.setAttribute("src", 'images/attack.gif');
 
 }
 
