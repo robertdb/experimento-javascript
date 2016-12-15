@@ -1,16 +1,16 @@
 function showBack() {
 
 	var image = document.getElementById('pokemonImage');
-	
-	image.setAttribute("src", 'charmander-back.png');
-	
+
+	image.setAttribute("src", 'images/charmander-back.gif');
+
 }
 
 function showFront() {
 
 	var image = document.getElementById('pokemonImage');
-	
-	image.setAttribute("src", 'charmander-front.png');
-	
+
+	image.setAttribute("src", 'images/charmander.gif');
+
 }
 
