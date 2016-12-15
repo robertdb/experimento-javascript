@@ -1,6 +1,7 @@
 body {
-    background-image: url("background.jpg");
-    background-size: cover;
+    background-image: url("images/arenaDeCombate.png");
+    background-size: 800 600;
+    background-repeat: no-repeat;
 }
 
 body > * {
