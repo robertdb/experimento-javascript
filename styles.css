@@ -1,7 +1,8 @@
 #battle {
     position: relative;
-    width: 600px;
-    height: 300px;
+    width: 90vw;
+    height: 45vw;
+    margin: auto;
 }
 
 #background {
