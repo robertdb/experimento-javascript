@@ -7,21 +7,19 @@
     <link rel="stylesheet" href="styles.css">
     <script src="buttons.js"></script>
 </head>
+
+
 <body>
-    <div>
-        <img src="images/arenaDeCombate.png">
-        <img id="pokemonImageUp"
+<div id="battle">
+    <img id="background" src="images/arenaDeCombate.png">
+    <img id="pokemonImageUp"
             src="images/charmander.gif">
-        <img id="pokemonImageDown"
+    <img id="pokemonImageDown"
             src="images/bulbasaur-back.gif">
-    </div>
-    <div>
-        <button id = "pokemonUp" onclick="attack()">
-            Attack
-        </button>
-        <button id = "pokemonDown" onclick="showFront()">
-            Front
-        </button>
-    </div>
+</div>
+<div>
+    <button id="pokemonUp" onclick="attack()">Attack</button>
+    <button id="pokemonDown" onclick="showFront()">Front</button>
+</div>
 </body>
 </html>
